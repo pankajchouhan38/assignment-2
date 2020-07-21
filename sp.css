@@ -1,0 +1,113 @@
+header {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(116, 184, 127);
+}
+img {
+  height: 50px;
+  width: 70px;
+  position: relative;
+}
+.navbar {
+  display: none;
+}
+.btn {
+  font-size: 1.25rem;
+}
+.btn:hover {
+  background-color: transparent;
+  border: none;
+  text-transform: none;
+}
+#mainpic {
+  width: 960px;
+  height: 540px;
+  position: relative;
+}
+
+h1 {
+  font-size: 1.125em;
+
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: rgb(116, 184, 127);
+  color: white;
+}
+span {
+  text-transform: uppercase;
+
+  color: white;
+}
+.col-md-3 {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+#fb {
+  background-color: rgb(66, 103, 178);
+}
+#num {
+  opacity: 0.7;
+  float: right;
+  padding-right: 5px;
+}
+#twitter {
+  background-color: rgb(26, 148, 224);
+}
+#insta {
+  background-color: rgb(224, 48, 108);
+}
+#watchimg {
+  width: 325px;
+  height: 170.5px;
+}
+#content {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#font {
+  font-size: 1.25rem;
+}
+#box {
+  display: none;
+}
+.text-center {
+  text-align: center;
+}
+.mb {
+  margin-bottom: 200px;
+}
+#box-d {
+  color: black;
+  text-transform: none;
+  font-size: 1.2rem;
+}
+#box-t {
+  color: black;
+  text-transform: none;
+  font-size: 1rem;
+  opacity: 0.5;
+  margin-top: 1600px;
+}
+@media (min-width: 770px) {
+  .navbar {
+    display: flex;
+  }
+}
+@media (min-width: 770px) {
+  #box {
+    z-index: 4;
+    width: 70%;
+    height: 40%;
+    position: absolute;
+    background-color: white;
+    margin-right: 10%;
+    margin-top: 40%;
+    display: flex;
+    border: 1px solid black;
+  }
+}
